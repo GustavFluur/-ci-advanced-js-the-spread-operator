@@ -7,8 +7,9 @@
 let arr1 = [1, 2, 3];
 let arr2 = arr1;
 arr2.push(4);
-console.log("Second Array:", arr2)
 console.log("First Array:", arr1)
+console.log("Second Array:", arr2)
+
 
 // Copying an array
 let arr3 = [4, 5, 6];
@@ -32,26 +33,4 @@ let arr5 = [...arr1, {...obj1},...arr3, "x", "y", "z"];
 console.log(arr5);
 
 
-let students = [
-    {
-        name: 'John',
-        subjects: ['maths', 'english', 'cad'],
-        teacher: {maths: 'Harry', english: 'Joan', cad: 'Paul'},
-        results: {maths: 90, english: 75, cad: 87},
-    },
-    {
-        name: 'Emily',
-        subjects: ['science', 'english', 'art'],
-        teacher: {science: 'Iris', english: 'Joan', art: 'Simon'},
-        results: {science: 93, english: 80, art: 95},
-    },
-    {
-        name: 'Adam',
-        subjects: ['science', 'maths', 'art'],
-        teacher: {science: 'Iris', maths: 'Harry', art: 'Simon'},
-        results: {science: 63, maths: 87, art: 95},
-    }
-];
 
-let subjects = students[subjects];
-console.log(subjects);
